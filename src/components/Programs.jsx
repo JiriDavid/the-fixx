@@ -81,9 +81,8 @@ const defaultPrograms = [
   },
 ];
 
-export default function Programs({ classes }) {
-  const baseList = Array.isArray(classes) ? classes : [];
-  const list = [...defaultPrograms, ...baseList];
+export default function Programs() {
+  const list = defaultPrograms;
   return (
     <section id="programs" className="relative isolate py-20 sm:py-24">
       <div className="pointer-events-none absolute inset-0 -z-10 grid-overlay" />
