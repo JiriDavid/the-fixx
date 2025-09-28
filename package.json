@@ -1,0 +1,32 @@
+{
+  "name": "one-gym",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.4",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "framer-motion": "^11.4.3",
+    "lenis": "^1.1.25",
+    "lucide-react": "^0.470.0",
+    "mongoose": "^8.8.0",
+    "next-auth": "^4.24.7",
+    "react-hook-form": "^7.53.0",
+    "swr": "^2.3.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "tailwindcss": "^4"
+  }
+}
